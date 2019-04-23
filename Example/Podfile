@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MarTho-Lib_Example' do
+  pod 'MarTho-Lib', :path => '../'
+
+  target 'MarTho-Lib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
