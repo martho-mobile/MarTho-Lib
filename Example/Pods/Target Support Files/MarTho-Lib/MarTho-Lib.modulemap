@@ -1,0 +1,6 @@
+framework module MarTho_Lib {
+  umbrella header "MarTho-Lib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MarTho-Lib (0.1.0)
+
+DEPENDENCIES:
+  - MarTho-Lib (from `../`)
+
+EXTERNAL SOURCES:
+  MarTho-Lib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarTho-Lib: 88bc5d696224b65a1c2c626d8560f480befd66a5
+
+PODFILE CHECKSUM: 439da152e789a6cc79c31bfaae33dedf63481d3a
+
+COCOAPODS: 1.6.1

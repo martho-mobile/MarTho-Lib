@@ -1,0 +1,22 @@
+{
+  "name": "MarTho-Lib",
+  "version": "0.1.0",
+  "summary": "A short description of MarTho-Lib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/martho-mobile/MarTho-Lib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "martho-mobile": "martin.sireau@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/martho-mobile/MarTho-Lib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MarTho-Lib/Classes/**/*"
+}
