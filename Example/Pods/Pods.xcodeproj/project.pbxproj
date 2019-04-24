@@ -11,10 +11,10 @@
 		130FB529AEFD494CB127B5D578F0AEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		62712D933B7E7FD5E16433186D25BC2C /* Pods-MarTho-Lib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48148F113D93DD18212EEA91AE090A30 /* Pods-MarTho-Lib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72332F2442AA10780D170B80C6989010 /* MarTho-Lib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67458900AFA16BE4ECF4F311D1AF52D0 /* MarTho-Lib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3A4D22722706A1100F061CE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4D22622706A1100F061CE /* UIColor+Extension.swift */; };
 		A47CFCC85849D4856136B06F3C457FEA /* Pods-MarTho-Lib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F0298D9CEA7A307557986F110AE7EA /* Pods-MarTho-Lib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5CAD41C4DD89C0B45BC8FE383448833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DA45E28A807977AF6D844D83952E55CE /* Pods-MarTho-Lib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */; };
-		E688355924C2E5DC3259D5A89DF9D511 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED858E2C4F68D984A49A51EF7A44DAE /* ReplaceMe.swift */; };
 		EC5B2385AE40DA9EEC63733FD2AF88F9 /* Pods-MarTho-Lib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6937F978B03BBFE055F9ADAED2D9F5C3 /* Pods-MarTho-Lib_Example-dummy.m */; };
 		F111F78DE2213D2A5EDF2CB2F238F215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -55,10 +55,10 @@
 		69ABD5FD30D9F0545FC6059733EDB15B /* Pods-MarTho-Lib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarTho-Lib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		738879270DAA7529A56FF8BF42696E58 /* MarTho-Lib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarTho-Lib.xcconfig"; sourceTree = "<group>"; };
 		761FB666CBC3AB8D7433F39DF99D5215 /* MarTho-Lib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "MarTho-Lib.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8ED858E2C4F68D984A49A51EF7A44DAE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "MarTho-Lib/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		8F2C33A92603A13013CA4B324B8A3E22 /* Pods-MarTho-Lib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarTho-Lib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA52EAFD545D4E8AFBCA89E9574CAA7 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A4D22622706A1100F061CE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarTho-Lib_Tests-dummy.m"; sourceTree = "<group>"; };
 		B42C440D9D264DE564C920372829AC73 /* Pods-MarTho-Lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarTho-Lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C09C61C9E037462204FA31C1A7E0698B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		125224B36CC252662D1E42B1D9DED7A2 /* MarTho-Lib */ = {
 			isa = PBXGroup;
 			children = (
-				8ED858E2C4F68D984A49A51EF7A44DAE /* ReplaceMe.swift */,
+				A3A4D22622706A1100F061CE /* UIColor+Extension.swift */,
 				B48F9D21FC4B31E06047D8725A964D34 /* Pod */,
 				F43E090EA9B02848DAD6522083C1FCF4 /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					CE50870E9055D3B21F554D0847D556F4 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -366,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05E6BEF6AC338676ACFF01DF066BA1C4 /* MarTho-Lib-dummy.m in Sources */,
-				E688355924C2E5DC3259D5A89DF9D511 /* ReplaceMe.swift in Sources */,
+				A3A4D22722706A1100F061CE /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 738879270DAA7529A56FF8BF42696E58 /* MarTho-Lib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -605,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 738879270DAA7529A56FF8BF42696E58 /* MarTho-Lib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -625,6 +632,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import MarTho_Lib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = UIColor(hexString: "#FF0000")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
