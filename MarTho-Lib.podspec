@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'MarTho-Lib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MarTho-Lib.'
+  s.summary          = 'MarTho-Lib is a tiny lib.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +19,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This lib is used for help us to make an app faster.
                        DESC
 
   s.homepage         = 'https://github.com/martho-mobile/MarTho-Lib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'martho-mobile' => 'martin.sireau@gmail.com' }
+  s.author           = { 'martho-mobile' => 'martho.mobile@gmail.com' }
   s.source           = { :git => 'https://github.com/martho-mobile/MarTho-Lib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MarTho-Lib/Classes/**/*'
+  s.source_files = 'MarTho-Lib/Classes/**/*', 'MarTho-Lib/Extensions/**/*'
   
   # s.resource_bundles = {
   #   'MarTho-Lib' => ['MarTho-Lib/Assets/*.png']
