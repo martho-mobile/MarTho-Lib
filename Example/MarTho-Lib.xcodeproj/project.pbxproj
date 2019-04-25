@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CEC40C6BFDDB798B9028B98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3CEC40C6BFDDB798B9028B98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		49DE4E6688F68961D3FAA804 /* Pods-MarTho-Lib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarTho-Lib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MarTho-Lib_Tests/Pods-MarTho-Lib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B8C969D55B13669F4BD9C1E /* Pods-MarTho-Lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarTho-Lib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MarTho-Lib_Example/Pods-MarTho-Lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5F5F563623AAA95CD1E50A63 /* Pods-MarTho-Lib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarTho-Lib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MarTho-Lib_Tests/Pods-MarTho-Lib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* MarTho-Lib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MarTho-Lib_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		86F133BA4AA0E782E1648DC2 /* MarTho-Lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "MarTho-Lib.podspec"; path = "../MarTho-Lib.podspec"; sourceTree = "<group>"; };
+		86F133BA4AA0E782E1648DC2 /* MarTho-Lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "MarTho-Lib.podspec"; path = "../MarTho-Lib.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98F189636B0BA19383AB9386 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0FA4AD437C19F687B76E7E /* Pods_MarTho_Lib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E451A6E4407402003ED8CE /* Pods-MarTho-Lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarTho-Lib_Example.release.xcconfig"; path = "Target Support Files/Pods-MarTho-Lib_Example/Pods-MarTho-Lib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4EECB03C92AE8636571D093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F4EECB03C92AE8636571D093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				49DE4E6688F68961D3FAA804 /* Pods-MarTho-Lib_Tests.debug.xcconfig */,
 				5F5F563623AAA95CD1E50A63 /* Pods-MarTho-Lib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

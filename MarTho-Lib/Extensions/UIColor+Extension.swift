@@ -7,10 +7,13 @@
 
 import UIKit
 
-
-extension UIColor {
+public extension UIColor {
     
-    public convenience init(hexString: String, alpha: CGFloat = 1.0) {
+    /*
+     - Init with an hexadecimal color, alpha is not mandatory.
+     = UIColor(hexString: "0x123456")
+     */
+    convenience init(hexString: String, alpha: CGFloat = 1.0) {
         let hexString: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         let scanner = Scanner(string: hexString)
         if (hexString.hasPrefix("#")) {

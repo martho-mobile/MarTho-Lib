@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(hexString: "#FF0000")
+        let alertController = UIAlertController(title: "truc", message: "tic", preferredStyle: .alert)
+        alertController.showOnTop()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
