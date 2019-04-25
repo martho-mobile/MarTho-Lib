@@ -8,9 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MarTho-Lib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MarTho-Lib is a tiny lib.'
-
+  s.swift_version    = '5.0'
+  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
