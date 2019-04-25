@@ -11,7 +11,7 @@ public extension UIColor {
     
     /*
      - Init with an hexadecimal color, alpha is not mandatory.
-     = UIColor(hexString: "0x123456")
+     = UIColor(hexString: "#123456") // "#123456" or "0x123456"
      */
     convenience init(hexString: String, alpha: CGFloat = 1.0) {
         let hexString: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)

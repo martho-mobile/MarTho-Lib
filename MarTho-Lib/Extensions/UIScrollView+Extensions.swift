@@ -12,6 +12,7 @@ public extension UIScrollView {
     /*
      - Use this method to calculate the content size of the scrollView.
        Should be called after settings all subviews constraints.
+       Must be called if you rotated your device.
      = UIScrollView.setContentSize()
      */
     func setContentSize() {

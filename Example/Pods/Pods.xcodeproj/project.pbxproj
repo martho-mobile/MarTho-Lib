@@ -11,10 +11,10 @@
 		130FB529AEFD494CB127B5D578F0AEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		62712D933B7E7FD5E16433186D25BC2C /* Pods-MarTho-Lib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48148F113D93DD18212EEA91AE090A30 /* Pods-MarTho-Lib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72332F2442AA10780D170B80C6989010 /* MarTho-Lib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67458900AFA16BE4ECF4F311D1AF52D0 /* MarTho-Lib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95C75AC02271801D007F5CDC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 95C75ABD2271801D007F5CDC /* .gitkeep */; };
 		95C75AC12271801D007F5CDC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */; };
 		95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */; };
 		95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */; };
+		95C75AC722718A51007F5CDC /* MTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC622718A51007F5CDC /* MTDevice.swift */; };
 		A47CFCC85849D4856136B06F3C457FEA /* Pods-MarTho-Lib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F0298D9CEA7A307557986F110AE7EA /* Pods-MarTho-Lib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5CAD41C4DD89C0B45BC8FE383448833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DA45E28A807977AF6D844D83952E55CE /* Pods-MarTho-Lib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */; };
@@ -59,10 +59,10 @@
 		738879270DAA7529A56FF8BF42696E58 /* MarTho-Lib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarTho-Lib.xcconfig"; sourceTree = "<group>"; };
 		761FB666CBC3AB8D7433F39DF99D5215 /* MarTho-Lib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "MarTho-Lib.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F2C33A92603A13013CA4B324B8A3E22 /* Pods-MarTho-Lib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarTho-Lib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		95C75ABD2271801D007F5CDC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
 		95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		95C75AC622718A51007F5CDC /* MTDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTDevice.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA52EAFD545D4E8AFBCA89E9574CAA7 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarTho-Lib_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		95C75ABC2271801D007F5CDC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				95C75ABD2271801D007F5CDC /* .gitkeep */,
+				95C75AC622718A51007F5CDC /* MTDevice.swift */,
 			);
 			name = Classes;
 			path = "MarTho-Lib/Classes";
@@ -387,7 +387,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C75AC02271801D007F5CDC /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +400,7 @@
 				95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */,
 				05E6BEF6AC338676ACFF01DF066BA1C4 /* MarTho-Lib-dummy.m in Sources */,
 				95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */,
+				95C75AC722718A51007F5CDC /* MTDevice.swift in Sources */,
 				95C75AC12271801D007F5CDC /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
