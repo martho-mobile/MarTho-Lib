@@ -36,18 +36,36 @@ class ViewController: UIViewController {
 //        print("Device height: \(MTDevice.deviceHeight())")
         
         // DROPSHADOW
-//        let v = UIView(frame: .zero)
-//        v.translatesAutoresizingMaskIntoConstraints = false
-//        v.backgroundColor = .yellow
-//        view.addSubview(v)
-//
-//        v.heightAnchor.constraint(equalToConstant: 50).isActive = true
-//        v.widthAnchor.constraint(equalToConstant: 50).isActive = true
-//        v.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-//        v.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-//
-//        v.layoutIfNeeded()
-//        v.dropShadow()
+        let v = UIView(frame: .zero)
+        v.translatesAutoresizingMaskIntoConstraints = false
+        v.backgroundColor = .yellow
+        view.addSubview(v)
+
+        v.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        v.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        v.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        v.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+
+        v.layoutIfNeeded()
+        v.dropShadow()
+
+        //FONT
+        let l: UILabel = {
+            let l = UILabel(frame: .zero)
+            l.translatesAutoresizingMaskIntoConstraints = false
+            l.text = "Hello"
+            l.textColor = .black
+            if let font = UIFont(name: "Helvetica", size: 18) {
+                l.font = font.italic
+            }
+            return l
+        }()
+        v.addSubview(l)
+        
+        l.centerXAnchor.constraint(equalTo: v.centerXAnchor).isActive = true
+        l.centerYAnchor.constraint(equalTo: v.centerYAnchor).isActive = true
+        
+        
         
     }
 

@@ -15,6 +15,8 @@
 		95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */; };
 		95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */; };
 		95C75AC722718A51007F5CDC /* MTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC622718A51007F5CDC /* MTDevice.swift */; };
+		A3198C512271DA4D00FBF47A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3198C502271DA4D00FBF47A /* UIFont+Extension.swift */; };
+		A350F2AC2271E1EF0084AA0E /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350F2AB2271E1EF0084AA0E /* UIStackView+Extension.swift */; };
 		A3720B9C2271AB7C00E27C52 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */; };
 		A47CFCC85849D4856136B06F3C457FEA /* Pods-MarTho-Lib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F0298D9CEA7A307557986F110AE7EA /* Pods-MarTho-Lib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5CAD41C4DD89C0B45BC8FE383448833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -66,6 +68,8 @@
 		95C75AC622718A51007F5CDC /* MTDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTDevice.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA52EAFD545D4E8AFBCA89E9574CAA7 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3198C502271DA4D00FBF47A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		A350F2AB2271E1EF0084AA0E /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarTho-Lib_Tests-dummy.m"; sourceTree = "<group>"; };
 		B42C440D9D264DE564C920372829AC73 /* Pods-MarTho-Lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarTho-Lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -177,8 +181,10 @@
 			children = (
 				95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */,
 				A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */,
+				A3198C502271DA4D00FBF47A /* UIFont+Extension.swift */,
 				95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */,
 				95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */,
+				A350F2AB2271E1EF0084AA0E /* UIStackView+Extension.swift */,
 			);
 			name = Extensions;
 			path = "MarTho-Lib/Extensions";
@@ -400,10 +406,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3198C512271DA4D00FBF47A /* UIFont+Extension.swift in Sources */,
 				A3720B9C2271AB7C00E27C52 /* UIView+Extension.swift in Sources */,
 				95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */,
 				05E6BEF6AC338676ACFF01DF066BA1C4 /* MarTho-Lib-dummy.m in Sources */,
 				95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */,
+				A350F2AC2271E1EF0084AA0E /* UIStackView+Extension.swift in Sources */,
 				95C75AC722718A51007F5CDC /* MTDevice.swift in Sources */,
 				95C75AC12271801D007F5CDC /* UIColor+Extension.swift in Sources */,
 			);
@@ -527,7 +535,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MarTho-Lib/MarTho-Lib-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MarTho-Lib/MarTho-Lib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MarTho-Lib/MarTho-Lib.modulemap";
 				PRODUCT_MODULE_NAME = MarTho_Lib;
@@ -658,7 +666,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MarTho-Lib/MarTho-Lib-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MarTho-Lib/MarTho-Lib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MarTho-Lib/MarTho-Lib.modulemap";
 				PRODUCT_MODULE_NAME = MarTho_Lib;

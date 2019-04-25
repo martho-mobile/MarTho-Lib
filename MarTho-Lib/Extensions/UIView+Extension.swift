@@ -7,11 +7,13 @@
 
 import UIKit
 
+// MARK: - Methods
 public extension UIView {
     
     /*
      - Create a shadow behind the current UIView
      = shadowView.dropShadow()
+     Source: aashish tamsya -> https://stackoverflow.com/questions/39624675/add-shadow-on-uiview-using-swift-3
      */
     func dropShadow(scale: Bool = true) {
         layer.masksToBounds = false
@@ -28,6 +30,7 @@ public extension UIView {
     /*
      - Create a shadow behind the current UIView with custom parameter
      = shadowView.dropShadow(color: .red, opacity: 1, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+     Source: aashish tamsya -> https://stackoverflow.com/questions/39624675/add-shadow-on-uiview-using-swift-3
      */
     func dropShadow(color: UIColor, opacity: Float = 0.5, offSet: CGSize, radius: CGFloat = 1, scale: Bool = true) {
         layer.masksToBounds = false

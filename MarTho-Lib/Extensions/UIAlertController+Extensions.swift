@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - Methods
 public extension UIAlertController {
     
     /*

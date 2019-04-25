@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - Initializers
 public extension UIColor {
     
     /*
