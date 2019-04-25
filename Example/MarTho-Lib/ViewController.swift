@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // COLOR
-        view.backgroundColor = UIColor(hexString: "#FF0000")
+//        view.backgroundColor = UIColor(hexString: "#FF0000")
         
         // ALERTCONTROLLER
 //        let alertController = UIAlertController(title: "- alert.showOnTop() -", message: "This is an UIAlertController", preferredStyle: .alert)
@@ -34,12 +34,21 @@ class ViewController: UIViewController {
 //        print("Device is landscape: \(MTDevice.deviceIsLandscape())")
 //        print("Device width: \(MTDevice.deviceWidth())")
 //        print("Device height: \(MTDevice.deviceHeight())")
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        // DROPSHADOW
+//        let v = UIView(frame: .zero)
+//        v.translatesAutoresizingMaskIntoConstraints = false
+//        v.backgroundColor = .yellow
+//        view.addSubview(v)
+//
+//        v.heightAnchor.constraint(equalToConstant: 50).isActive = true
+//        v.widthAnchor.constraint(equalToConstant: 50).isActive = true
+//        v.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        v.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+//
+//        v.layoutIfNeeded()
+//        v.dropShadow()
+        
     }
 
 }
-

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MarTho-Lib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'MarTho-Lib is a tiny lib.'
   s.swift_version    = '5.0'
   

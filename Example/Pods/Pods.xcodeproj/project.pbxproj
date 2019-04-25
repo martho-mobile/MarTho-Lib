@@ -15,6 +15,7 @@
 		95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */; };
 		95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */; };
 		95C75AC722718A51007F5CDC /* MTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC622718A51007F5CDC /* MTDevice.swift */; };
+		A3720B9C2271AB7C00E27C52 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */; };
 		A47CFCC85849D4856136B06F3C457FEA /* Pods-MarTho-Lib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F0298D9CEA7A307557986F110AE7EA /* Pods-MarTho-Lib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5CAD41C4DD89C0B45BC8FE383448833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DA45E28A807977AF6D844D83952E55CE /* Pods-MarTho-Lib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */; };
@@ -65,6 +66,7 @@
 		95C75AC622718A51007F5CDC /* MTDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTDevice.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA52EAFD545D4E8AFBCA89E9574CAA7 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		A65753207952951D779A2815FBBE3DDA /* Pods-MarTho-Lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarTho-Lib_Tests-dummy.m"; sourceTree = "<group>"; };
 		B42C440D9D264DE564C920372829AC73 /* Pods-MarTho-Lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarTho-Lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C09C61C9E037462204FA31C1A7E0698B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */,
+				A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */,
 				95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */,
 				95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */,
 			);
@@ -397,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3720B9C2271AB7C00E27C52 /* UIView+Extension.swift in Sources */,
 				95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */,
 				05E6BEF6AC338676ACFF01DF066BA1C4 /* MarTho-Lib-dummy.m in Sources */,
 				95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */,
