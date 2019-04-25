@@ -22,7 +22,7 @@ pod 'MarTho-Lib'
 
 ## Author
 
-martho-mobile, martin.sireau@gmail.com
+Martho, martho.mobile@gmail.com
 
 ## License
 
