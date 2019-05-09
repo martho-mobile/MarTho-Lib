@@ -11,6 +11,8 @@
 		130FB529AEFD494CB127B5D578F0AEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		62712D933B7E7FD5E16433186D25BC2C /* Pods-MarTho-Lib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48148F113D93DD18212EEA91AE090A30 /* Pods-MarTho-Lib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72332F2442AA10780D170B80C6989010 /* MarTho-Lib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67458900AFA16BE4ECF4F311D1AF52D0 /* MarTho-Lib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958A791E22840659001B3627 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A791D22840659001B3627 /* UIImageView+Extension.swift */; };
+		958A79202284078A001B3627 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A791F2284078A001B3627 /* UIImage+Extension.swift */; };
 		95C75AC12271801D007F5CDC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */; };
 		95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */; };
 		95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */; };
@@ -62,6 +64,8 @@
 		738879270DAA7529A56FF8BF42696E58 /* MarTho-Lib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarTho-Lib.xcconfig"; sourceTree = "<group>"; };
 		761FB666CBC3AB8D7433F39DF99D5215 /* MarTho-Lib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "MarTho-Lib.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F2C33A92603A13013CA4B324B8A3E22 /* Pods-MarTho-Lib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarTho-Lib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		958A791D22840659001B3627 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		958A791F2284078A001B3627 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
 		95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
@@ -179,12 +183,14 @@
 		95C75ABE2271801D007F5CDC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */,
-				A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */,
-				A3198C502271DA4D00FBF47A /* UIFont+Extension.swift */,
-				95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */,
 				95C75AC4227183D3007F5CDC /* UIAlertController+Extensions.swift */,
+				95C75ABF2271801D007F5CDC /* UIColor+Extension.swift */,
+				A3198C502271DA4D00FBF47A /* UIFont+Extension.swift */,
+				958A791F2284078A001B3627 /* UIImage+Extension.swift */,
+				958A791D22840659001B3627 /* UIImageView+Extension.swift */,
+				95C75AC22271810E007F5CDC /* UIScrollView+Extensions.swift */,
 				A350F2AB2271E1EF0084AA0E /* UIStackView+Extension.swift */,
+				A3720B9B2271AB7C00E27C52 /* UIView+Extension.swift */,
 			);
 			name = Extensions;
 			path = "MarTho-Lib/Extensions";
@@ -409,9 +415,11 @@
 				A3198C512271DA4D00FBF47A /* UIFont+Extension.swift in Sources */,
 				A3720B9C2271AB7C00E27C52 /* UIView+Extension.swift in Sources */,
 				95C75AC32271810E007F5CDC /* UIScrollView+Extensions.swift in Sources */,
+				958A791E22840659001B3627 /* UIImageView+Extension.swift in Sources */,
 				05E6BEF6AC338676ACFF01DF066BA1C4 /* MarTho-Lib-dummy.m in Sources */,
 				95C75AC5227183D3007F5CDC /* UIAlertController+Extensions.swift in Sources */,
 				A350F2AC2271E1EF0084AA0E /* UIStackView+Extension.swift in Sources */,
+				958A79202284078A001B3627 /* UIImage+Extension.swift in Sources */,
 				95C75AC722718A51007F5CDC /* MTDevice.swift in Sources */,
 				95C75AC12271801D007F5CDC /* UIColor+Extension.swift in Sources */,
 			);
