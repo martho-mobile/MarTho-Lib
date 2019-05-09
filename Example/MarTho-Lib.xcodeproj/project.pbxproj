@@ -267,15 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarTho-Lib_Example/Pods-MarTho-Lib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MarTho-Lib/MarTho_Lib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarTho_Lib.framework",
 			);

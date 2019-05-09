@@ -66,15 +66,15 @@ class ViewController: UIViewController {
 //        l.centerYAnchor.constraint(equalTo: v.centerYAnchor).isActive = true
         
         // UIIMAGEVIEW
-        let iv = UIImageView(image: UIImage(named: ""))
+        let iv = UIImageView(image: UIImage(from: .red))
         iv.translatesAutoresizingMaskIntoConstraints = false
-        iv.backgroundColor = UIColor(hexString: "#123456")
         view.addSubview(iv)
         iv.heightAnchor.constraint(equalToConstant: 50).isActive = true
         iv.widthAnchor.constraint(equalToConstant: 50).isActive = true
         iv.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         iv.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        iv.setCircular()
+        iv.setRadius(radius: 10)
+//        iv.setCircular()
 //        iv.dropShadow()
 
         

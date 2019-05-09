@@ -1,5 +1,5 @@
 PODS:
-  - MarTho-Lib (0.1.0)
+  - MarTho-Lib (0.1.2)
 
 DEPENDENCIES:
   - MarTho-Lib (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MarTho-Lib: 88bc5d696224b65a1c2c626d8560f480befd66a5
+  MarTho-Lib: 4ecb82536fe2061b9be59f861707cbe00db988ef
 
 PODFILE CHECKSUM: 439da152e789a6cc79c31bfaae33dedf63481d3a
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0.beta.3
