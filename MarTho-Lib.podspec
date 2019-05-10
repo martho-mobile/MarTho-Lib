@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MarTho-Lib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'MarTho-Lib is a tiny lib.'
   s.swift_version    = '5.0'
-  
+
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -32,7 +32,7 @@ This lib is used for help us to make an app faster.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MarTho-Lib/Classes/**/*', 'MarTho-Lib/Extensions/**/*'
-  
+
   # s.resource_bundles = {
   #   'MarTho-Lib' => ['MarTho-Lib/Assets/*.png']
   # }
