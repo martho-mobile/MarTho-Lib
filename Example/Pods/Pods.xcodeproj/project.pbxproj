@@ -51,17 +51,17 @@
 		058950ECC53490905D6B901915796909 /* MarTho-Lib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarTho-Lib-dummy.m"; sourceTree = "<group>"; };
 		0595A45BFC7368D6D2E99B853432733B /* Pods-MarTho-Lib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarTho-Lib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C9E902593C3669EF048B887855A2855 /* Pods-MarTho-Lib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarTho-Lib_Example.modulemap"; sourceTree = "<group>"; };
-		255786A4060F0E74104D19E282B411AF /* MarTho-Lib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "MarTho-Lib.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		255786A4060F0E74104D19E282B411AF /* MarTho-Lib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "MarTho-Lib.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2A77AE4F2217DFB559771873ACD0AEFD /* MarTho-Lib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MarTho-Lib.modulemap"; sourceTree = "<group>"; };
 		3C98A0D6EA9F458231F4E73F7120499A /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3EF57D8E71116758D103D9294B9EA2EA /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		406A6ACE2557A17D0F482EAF1731D81F /* MarTho-Lib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarTho-Lib-prefix.pch"; sourceTree = "<group>"; };
-		43430A761BE99BDDE029A0AACFDFB259 /* MarTho_Lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarTho_Lib.framework; path = "MarTho-Lib.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43430A761BE99BDDE029A0AACFDFB259 /* MarTho_Lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarTho_Lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4448C8FE469696084CAA4D3205E61651 /* Pods-MarTho-Lib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarTho-Lib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46813B3E671A46C3E8858514F78D3241 /* Pods-MarTho-Lib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarTho-Lib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		47D47D6232DC46CC1451549011765B18 /* Pods-MarTho-Lib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarTho-Lib_Tests.modulemap"; sourceTree = "<group>"; };
 		49241BC57D83F87CC81CD24DD6D89C94 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		57440A2FDCE7EE80A440286ACA2AFEBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		57440A2FDCE7EE80A440286ACA2AFEBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A1E5DEE0B3A59417706835A10156AEE /* MarTho-Lib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarTho-Lib.xcconfig"; sourceTree = "<group>"; };
 		6B8863EF7CC281CF7707A07946A6B933 /* Pods-MarTho-Lib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarTho-Lib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FAD47880F45DAF98A12CB2E134A6443 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
@@ -72,16 +72,16 @@
 		8C92BA740B0888EC93B0A1D353A0AE22 /* MarTho-Lib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarTho-Lib-umbrella.h"; sourceTree = "<group>"; };
 		98A2D2B803F73B3FB6EAC8B7C39BD565 /* Pods-MarTho-Lib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarTho-Lib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D59B78E3AF6D573281973CBF529FFD0 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EA52EAFD545D4E8AFBCA89E9574CAA7 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarTho_Lib_Example.framework; path = "Pods-MarTho-Lib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA52EAFD545D4E8AFBCA89E9574CAA7 /* Pods_MarTho_Lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AC839FEC1CA918AF9B988CFAA98C21 /* Pods-MarTho-Lib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarTho-Lib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B6F5F20B5569097719D46D72E5995B7E /* MTDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MTDevice.swift; sourceTree = "<group>"; };
 		C82A2D218221240499A4B766A03FED5F /* Pods-MarTho-Lib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarTho-Lib_Example-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D0E78538B875299682443D18B2367628 /* Pods-MarTho-Lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarTho-Lib_Tests-dummy.m"; sourceTree = "<group>"; };
 		D83FD3E9C27F33EC91A79AF7BC093306 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
-		E83CFB7F8384910587B7FE045E461C07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EEA177799DF6BCAEB0AD3817C0C81034 /* Pods_MarTho_Lib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarTho_Lib_Tests.framework; path = "Pods-MarTho-Lib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83CFB7F8384910587B7FE045E461C07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EEA177799DF6BCAEB0AD3817C0C81034 /* Pods_MarTho_Lib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarTho_Lib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0487352AD83A0CC0340918863D07BD0 /* Pods-MarTho-Lib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarTho-Lib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8DD987D7C43C18106E63B42F7CBC352 /* Pods-MarTho-Lib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarTho-Lib_Tests-Info.plist"; sourceTree = "<group>"; };
 		FA94AC4E9B37190D3D424B748871FA37 /* MarTho-Lib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarTho-Lib-Info.plist"; sourceTree = "<group>"; };
@@ -356,14 +356,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 021D324771A8C2CBFC6264AD9658B832 /* Products */;
@@ -525,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -574,8 +576,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -620,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
