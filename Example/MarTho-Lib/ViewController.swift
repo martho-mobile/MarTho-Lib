@@ -73,12 +73,11 @@ class ViewController: UIViewController {
         iv.widthAnchor.constraint(equalToConstant: 50).isActive = true
         iv.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         iv.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        iv.setRadius(radius: 10)
+        iv.layoutIfNeeded()
+        print(iv.frame)
 //        iv.setCircular()
-//        iv.dropShadow()
+//        iv.setCornerRadius(10)
 
-        
-        
     }
 
 }
